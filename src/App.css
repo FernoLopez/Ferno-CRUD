@@ -1,0 +1,86 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #808080;
+  margin:auto;
+  width: 100%;
+  padding: 10px;
+  background-image: url('https://img2.goodfon.com/wallpaper/nbig/0/70/abstract-colorful-geometry-3433.jpg');
+}
+
+.form-input {
+  display: grid;
+  grid-gap: 6.5px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 39px;
+  width: 426px;
+  border: 1px solid #E6E6E6;
+  border-radius: 20px;
+  color:#333333;
+  font-size: 18px;
+}
+
+.form-button {
+        height: 38px;
+        width: 243px;
+        border-radius: 20px;
+        background-color: #00CB79;
+    }
+
+    .card{
+      display: grid;
+      grid-gap: 6.5px;
+      text-align: justify;
+      box-sizing: border-box;
+      margin: 0 auto;
+      background: var(--card-color);
+      color:rgb(255, 255, 255);
+      width: 400px;
+      padding: 20px;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+      border-radius: 20px;
+      color:antiquewhite;    
+  }
+
+ 
+.button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20, 47, 167, 0.89) 0%, rgb(102, 104, 247) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #8ca714b2;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+i {
+  color:#333333; 
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+i:hover {
+  background: #eb2f06;
+}
+
+.size-button {
+  width: 8%;
+} 
+
